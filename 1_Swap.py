@@ -14,3 +14,7 @@ class Solution:
         end_index=n-k
         arr[start_index], arr[end_index]=arr[end_index], arr[start_index]
  
+solution = Solution()
+arr1 = [1, 2, 3, 4, 5, 6, 7, 8]
+solution.swapKth(8, 3, arr1)
+print(arr1)
