@@ -26,7 +26,6 @@ class Solution:
                 result.append(char)
         return ''.join(result)
 
-# Example usage
 sol = Solution()
 print(sol.reciprocalString("ab C"))  # Output: "zy X"
 print(sol.reciprocalString("Ish"))   # Output: "Rhs"

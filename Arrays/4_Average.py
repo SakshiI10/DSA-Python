@@ -21,7 +21,6 @@ class Solution:
         
         return result
 
-# Example usage
 solution = Solution()
 arr1 = [1, 2, 3, 4, 5]
 n1 = len(arr1)

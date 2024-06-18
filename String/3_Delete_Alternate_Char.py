@@ -10,7 +10,6 @@ class Solution:
         # Slicing the string to take characters at even indices
         return S[::2]
 
-# Example usage
 sol = Solution()
 print(sol.delAlternate("Geeks"))  # Output: "Ges"
 print(sol.delAlternate("GeeksforGeeks"))  # Output: "GesoGes"
