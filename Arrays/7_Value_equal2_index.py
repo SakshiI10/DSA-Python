@@ -15,7 +15,6 @@ class Solution:
                 result.append(i + 1)
         return result
 
-# Example usage:
 sol = Solution()
 arr = [15, 2, 45, 4, 7]
 n = len(arr)
